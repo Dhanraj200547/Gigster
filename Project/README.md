@@ -1,12 +1,183 @@
-# React + Vite
+Here's a complete, professional **README.md** file for your **Gigster** project. It explains the project clearly and looks great on GitHub.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# 🚀 Gigster - Student-Employer Job Portal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Gigster is a **full-stack job portal** built using **React + Firebase** that connects students with employers offering part-time gigs, internships, or short-term jobs. The platform supports two user roles: **Students** and **Employers**, with complete real-time functionality, application management, and intuitive dashboards for each.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Demo
+
+> Screenshots, GIFs, or demo link (coming soon)
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend       | Backend / DB      | Auth            | Styling        |
+|----------------|-------------------|------------------|----------------|
+| React          | Firebase Firestore | Firebase Auth    | Tailwind CSS   |
+| React Router   | Firestore Security Rules |               | Toastify (for alerts) |
+
+---
+
+## ✨ Features
+
+### 👥 Authentication
+- Firebase Authentication (Email/Password)
+- Role-based login: **Student** / **Employer**
+- Persistent login (user stays logged in until logout)
+
+### 🧑‍🎓 Student Dashboard
+- View all available jobs
+- Search by title or location
+- Real-time application status updates
+- Bookmark favorite jobs
+- Apply once per job
+- Withdraw application
+- View **My Applications** separately
+- Job detail view
+
+### 🧑‍💼 Employer Dashboard
+- Post new jobs with details
+- Edit or delete posted jobs
+- View list of applicants per job
+- Accept / Reject applications
+- Real-time application status updates to students
+
+### 📨 Notifications
+- Toast alerts for all major actions (apply, withdraw, bookmark, errors)
+
+---
+
+## 📁 Firestore Data Structure
+
+```
+
+users/
+└── userId
+└── { name, email, role }
+
+jobs/
+└── jobId
+└── { title, description, salary, location, postedBy }
+
+applications/
+└── applicationId
+└── { jobId, studentId, status, appliedAt }
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/gigster.git
+cd gigster
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Setup Firebase
+
+* Create a Firebase project
+* Enable **Authentication** (Email/Password)
+* Create **Firestore** database
+* Copy your Firebase config to `src/firebase.js`
+
+```js
+// src/firebase.js
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAuth } from "firebase/auth";
+
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT.appspot.com",
+  messagingSenderId: "ID",
+  appId: "YOUR_APP_ID"
+};
+
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);
+export const auth = getAuth(app);
+```
+
+### 4. Run the app
+
+```bash
+npm run dev
+```
+
+> App will run at `http://localhost:5173` (if using Vite)
+
+---
+
+## 📦 Folder Structure
+
+```
+/src
+  /pages
+    - Login.jsx
+    - Signup.jsx
+    - DashboardStudent.jsx
+    - DashboardEmployer.jsx
+  /components
+    - Navbar.jsx
+    - ProtectedRoute.jsx
+  firebase.js
+  App.jsx
+  main.jsx
+```
+
+---
+
+## ✅ TODO / Future Upgrades
+
+* [x] Persistent login
+* [x] Withdraw application feature
+* [x] My Applications page
+* [x] Real-time Firestore updates
+* [x] Edit/Delete job posts
+* [x] Toastify alerts
+* [ ] Resume upload for students
+* [ ] Email notifications
+* [ ] Admin panel
+* [ ] Chat system between employers & selected students
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Odeti Dhanraj](https://github.com/Dhanraj200547/Gigster)
+
+Feel free to ⭐ this repo if it helped you or inspired your own project!
+
+---
+
+## 📄 License
+
+MIT License — [Click here](LICENSE) to view.
+
+```
+
+---
+
+Let me know if you want:
+
+- A version with screenshots/links
+- A `LICENSE.md` file
+- To push it to GitHub (I can help you with the steps)
+```
