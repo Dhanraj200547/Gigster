@@ -5,12 +5,12 @@ import { getAuth , setPersistence, browserLocalPersistence } from "firebase/auth
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDaWeWT-rkcj4jDRcC19GzZr94SlNzzWgA",
-  authDomain: "gigster-cbf2b.firebaseapp.com",
-  projectId: "gigster-cbf2b",
-  storageBucket: "gigster-cbf2b.firebasestorage.app",
-  messagingSenderId: "775391808452",
-  appId: "1:775391808452:web:4bef73fdfecc2a7bfd7291"
+  apiKey: "Your-apiKey",
+  authDomain: "Your-authDomain",
+  projectId: "Your-ProjectID",
+  storageBucket: "Your-Storage-Bucket",
+  messagingSenderId: "Your-messagingsenderid",
+  appId: "Your-appid"
 };
 
 const app = initializeApp(firebaseConfig);
