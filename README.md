@@ -7,7 +7,6 @@ Gigster is a **full-stack job portal** built using **React + Firebase** that con
 
 ##  Demo
 
-> Screenshots, GIFs, or demo link (coming soon)
 
 <img src = "/Project/Images/home.png">
 <img src = "/Project/Images/Login.png">
