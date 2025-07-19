@@ -1,7 +1,3 @@
-Here's a complete, professional **README.md** file for your **Gigster** project. It explains the project clearly and looks great on GitHub.
-
----
-
 ```markdown
 # 🚀 Gigster - Student-Employer Job Portal
 
@@ -13,6 +9,9 @@ Gigster is a **full-stack job portal** built using **React + Firebase** that con
 
 > Screenshots, GIFs, or demo link (coming soon)
 
+[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/tree/main/Project/Images/home.png?raw=true)]
+[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/tree/main/Project/Images/Login.png?raw=true)]
+[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/tree/main/Project/Images/signup.png?raw=true)]
 ---
 
 ## 🛠️ Tech Stack
