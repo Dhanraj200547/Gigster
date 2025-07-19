@@ -9,9 +9,9 @@ Gigster is a **full-stack job portal** built using **React + Firebase** that con
 
 > Screenshots, GIFs, or demo link (coming soon)
 
-[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/home.png?raw=true)]
-[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/signup.png?raw=true)]
-[![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/Login.png?raw=true)]
+![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/home.png?raw=true)
+![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/signup.png?raw=true)
+![Application Screenshot](https://github.com/Dhanraj200547/Gigster/Project/Images/Login.png?raw=true)
 ---
 
 ##  Tech Stack
