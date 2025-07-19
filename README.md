@@ -1,19 +1,17 @@
 
-
-```markdown
-# 🚀 Gigster - Student-Employer Job Portal
+# Gigster - Student-Employer Job Portal
 
 Gigster is a **full-stack job portal** built using **React + Firebase** that connects students with employers offering part-time gigs, internships, or short-term jobs. The platform supports two user roles: **Students** and **Employers**, with complete real-time functionality, application management, and intuitive dashboards for each.
 
 ---
 
-## 📸 Demo
+##  Demo
 
 > Screenshots, GIFs, or demo link (coming soon)
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Frontend       | Backend / DB      | Auth            | Styling        |
 |----------------|-------------------|------------------|----------------|
@@ -22,14 +20,14 @@ Gigster is a **full-stack job portal** built using **React + Firebase** that con
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 👥 Authentication
 - Firebase Authentication (Email/Password)
 - Role-based login: **Student** / **Employer**
 - Persistent login (user stays logged in until logout)
 
-### 🧑‍🎓 Student Dashboard
+###  Student Dashboard
 - View all available jobs
 - Search by title or location
 - Real-time application status updates
@@ -39,19 +37,19 @@ Gigster is a **full-stack job portal** built using **React + Firebase** that con
 - View **My Applications** separately
 - Job detail view
 
-### 🧑‍💼 Employer Dashboard
+###  Employer Dashboard
 - Post new jobs with details
 - Edit or delete posted jobs
 - View list of applicants per job
 - Accept / Reject applications
 - Real-time application status updates to students
 
-### 📨 Notifications
+###  Notifications
 - Toast alerts for all major actions (apply, withdraw, bookmark, errors)
 
 ---
 
-## 📁 Firestore Data Structure
+##  Firestore Data Structure
 
 ```
 
@@ -71,7 +69,7 @@ applications/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repo
 
@@ -123,7 +121,7 @@ npm run dev
 
 ---
 
-## 📦 Folder Structure
+##  Folder Structure
 
 ```
 /src
@@ -142,7 +140,7 @@ npm run dev
 
 ---
 
-## ✅ TODO / Future Upgrades
+##  TODO / Future Upgrades
 
 * [x] Persistent login
 * [x] Withdraw application feature
@@ -157,25 +155,11 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
-Made with ❤️ by [Odeti Dhanraj](https://github.com/Dhanraj200547/Gigster)
+Made with [Odeti Dhanraj](https://github.com/Dhanraj200547/Gigster)
 
 Feel free to ⭐ this repo if it helped you or inspired your own project!
 
 ---
 
-## 📄 License
-
-MIT License — [Click here](LICENSE) to view.
-
-```
-
----
-
-Let me know if you want:
-
-- A version with screenshots/links
-- A `LICENSE.md` file
-- To push it to GitHub (I can help you with the steps)
-```
